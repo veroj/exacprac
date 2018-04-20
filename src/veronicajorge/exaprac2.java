@@ -26,6 +26,8 @@ public class exaprac2 {
                           cantidad[i] = Integer.parseInt(JOptionPane.showInputDialog("Ingrese cantidad del producto"));                
                           precio[i] = Double.parseDouble(JOptionPane.showInputDialog("Ingrese precio del producto"));
                          
+                          precio[i]++; 
+                          
                           int n = Integer.parseInt(JOptionPane.showInputDialog(null, "¿Desea ingresar un nuevo registro?\n 1) Si\n 2) No"));
                           
                           if(n==1)
